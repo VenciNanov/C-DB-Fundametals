@@ -1,0 +1,23 @@
+BACKUP DATABASE SoftUni TO DISK ='D:\softuniDB-Backup.bak';
+--FOR JUDGE
+
+UPDATE Employees
+SET [Salary] *=1.12
+WHERE [DepartmentID] IN(1,2,4,11)
+
+SELECT [Salary] FROM Employees
+
+--RESTORE DB
+
+USE [Geography]
+GO
+
+ALTER DATABASE SoftUni SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+
+DROP DATABASE SOFTUNI;
+GO
+
+RESTORE DATABASE SoftUni FROM DISK='D:\softuniDB-Backup.bak';
+
+
