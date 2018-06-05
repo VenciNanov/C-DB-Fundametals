@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="03.Built-InFunctions">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="04.DataAggregation">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-LFC551Q\SQLEXPRESS:AzureAD\Venci_nanov">
-          <Created>2018-05-28T22:28:38.5219659+03:00</Created>
+          <Created>2018-05-29T13:53:18.6723108+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-LFC551Q\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
+          <InitialDB>Gringotts</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,101 +19,107 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="01.FindNamesOfAllEmployeesByFirstName.sql">
+        <FileNode Name="01.RecordsCount.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01.FindNamesOfAllEmployeesByFirstName.sql</FullPath>
+          <FullPath>01.RecordsCount.sql</FullPath>
         </FileNode>
-        <FileNode Name="02.FindNamesOfAllEmployeesByLastName.sql">
+        <FileNode Name="02.LongestMagicWand.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02.FindNamesOfAllEmployeesByLastName.sql</FullPath>
+          <FullPath>02.LongestMagicWand.sql</FullPath>
         </FileNode>
-        <FileNode Name="03.FindFirstNamesOfAllEmployees.sql">
+        <FileNode Name="03.LognesMagicWandPerDepositGroups.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03.FindFirstNamesOfAllEmployees.sql</FullPath>
+          <FullPath>03.LognesMagicWandPerDepositGroups.sql</FullPath>
         </FileNode>
-        <FileNode Name="04.FindAllEmployeesExceptEngineers.sql">
+        <FileNode Name="04.SmallestDepositGroupPerMagicWandSize.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04.FindAllEmployeesExceptEngineers.sql</FullPath>
+          <FullPath>04.SmallestDepositGroupPerMagicWandSize.sql</FullPath>
         </FileNode>
-        <FileNode Name="05.FindTownsWithNameLength.sql">
+        <FileNode Name="05.DepositSum.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05.FindTownsWithNameLength.sql</FullPath>
+          <FullPath>05.DepositSum.sql</FullPath>
         </FileNode>
-        <FileNode Name="06.FindTownsStartingWith.sql">
+        <FileNode Name="06.DepositSumForOllivanderFamily.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>06.FindTownsStartingWith.sql</FullPath>
+          <FullPath>06.DepositSumForOllivanderFamily.sql</FullPath>
         </FileNode>
-        <FileNode Name="07.FindTownsNotStartingWiht.sql">
+        <FileNode Name="07.DepositFilter.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07.FindTownsNotStartingWiht.sql</FullPath>
+          <FullPath>07.DepositFilter.sql</FullPath>
         </FileNode>
-        <FileNode Name="08.CreateViewEmployeesHiredAfter2000Year.sql">
+        <FileNode Name="08.DepositCharge.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>08.CreateViewEmployeesHiredAfter2000Year.sql</FullPath>
+          <FullPath>08.DepositCharge.sql</FullPath>
         </FileNode>
-        <FileNode Name="09.LengthOfLastName.sql">
+        <FileNode Name="09.AgeGroups.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>09.LengthOfLastName.sql</FullPath>
+          <FullPath>09.AgeGroups.sql</FullPath>
         </FileNode>
-        <FileNode Name="10.CountriesHoldingA3OrMoreTimes.sql">
+        <FileNode Name="10.FirstLetter.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>10.CountriesHoldingA3OrMoreTimes.sql</FullPath>
+          <FullPath>10.FirstLetter.sql</FullPath>
         </FileNode>
-        <FileNode Name="11.MixOfPeakAndRiverNames.sql">
+        <FileNode Name="11.AverageInterest.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>11.MixOfPeakAndRiverNames.sql</FullPath>
+          <FullPath>11.AverageInterest.sql</FullPath>
         </FileNode>
-        <FileNode Name="12.GamesFrom2011And2012.sql">
+        <FileNode Name="12.RichWizard,PoorWizard.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>12.GamesFrom2011And2012.sql</FullPath>
+          <FullPath>12.RichWizard,PoorWizard.sql</FullPath>
         </FileNode>
-        <FileNode Name="13.UserEmailProviders.sql">
+        <FileNode Name="13.DepartmentsTotalSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>13.UserEmailProviders.sql</FullPath>
+          <FullPath>13.DepartmentsTotalSalaries.sql</FullPath>
         </FileNode>
-        <FileNode Name="14.GetUsersWithIPAddressLikePattern.sql">
+        <FileNode Name="14.EmployeesMinimumSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>14.GetUsersWithIPAddressLikePattern.sql</FullPath>
+          <FullPath>14.EmployeesMinimumSalaries.sql</FullPath>
         </FileNode>
-        <FileNode Name="15.ShowAllGamesWithDurationAndPartOfTheDay.sql">
+        <FileNode Name="15.EmployeesAverageSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>15.ShowAllGamesWithDurationAndPartOfTheDay.sql</FullPath>
+          <FullPath>15.EmployeesAverageSalaries.sql</FullPath>
         </FileNode>
-        <FileNode Name="16.OrdersTable.sql">
+        <FileNode Name="16.EmployeesMaximumSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>16.OrdersTable.sql</FullPath>
+          <FullPath>16.EmployeesMaximumSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17.EmployeesCountSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17.EmployeesCountSalaries.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
