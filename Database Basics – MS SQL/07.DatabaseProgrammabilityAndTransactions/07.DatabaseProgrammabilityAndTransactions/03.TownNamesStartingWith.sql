@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE usp_GetTownsStartingWith
+CREATE PROCEDURE usp_GetTownsStartingWith
 	@StartString NVARCHAR(10)
 AS 
 	SELECT Name

@@ -19,6 +19,7 @@ CREATE FUNCTION ufn_GetSalaryLevel(@Salary DECIMAL(18,4))
 
 		RETURN @SalaryLevel
 	END
+
 GO
 
 SELECT

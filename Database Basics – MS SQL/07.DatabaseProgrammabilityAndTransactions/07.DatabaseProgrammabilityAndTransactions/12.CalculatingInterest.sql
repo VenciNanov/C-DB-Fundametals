@@ -1,4 +1,4 @@
-CREATE OR ALTER PROC usp_CalculateFutureValueForAccount(@AccountId INT, @InterestRate FLOAT)
+CREATE PROC usp_CalculateFutureValueForAccount(@AccountId INT, @InterestRate FLOAT)
 AS 
 	BEGIN
 		DECLARE @Years INT = 5;

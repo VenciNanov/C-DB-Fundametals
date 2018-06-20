@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="07.DatabaseProgrammabilityAndTransactions">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="19-FEB-2017">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-LFC551Q\SQLEXPRESS:AzureAD\Venci_nanov">
-          <Created>2018-06-05T21:55:39.6850822+03:00</Created>
+          <Created>2018-06-16T17:24:05.4295546+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-LFC551Q\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>Geography</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,131 +19,125 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="01.EmployeesWithSalaryAbove35000.sql">
+        <FileNode Name="01.DDL.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01.EmployeesWithSalaryAbove35000.sql</FullPath>
+          <FullPath>01.DDL.sql</FullPath>
         </FileNode>
-        <FileNode Name="02.EmployeesWithSalaryAboveNumber.sql">
+        <FileNode Name="02.Insert.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02.EmployeesWithSalaryAboveNumber.sql</FullPath>
+          <FullPath>02.Insert.sql</FullPath>
         </FileNode>
-        <FileNode Name="03.TownNamesStartingWith.sql">
+        <FileNode Name="03.Update.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03.TownNamesStartingWith.sql</FullPath>
+          <FullPath>03.Update.sql</FullPath>
         </FileNode>
-        <FileNode Name="04.EmployeesFromTown.sql">
+        <FileNode Name="04.Delete.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04.EmployeesFromTown.sql</FullPath>
+          <FullPath>04.Delete.sql</FullPath>
         </FileNode>
-        <FileNode Name="05.SalaryLevelFunction.sql">
+        <FileNode Name="05.ProductsByPrice.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05.SalaryLevelFunction.sql</FullPath>
+          <FullPath>05.ProductsByPrice.sql</FullPath>
         </FileNode>
-        <FileNode Name="06.EmployeesBySalaryLevel.sql">
+        <FileNode Name="06.Ingredients.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>06.EmployeesBySalaryLevel.sql</FullPath>
+          <FullPath>06.Ingredients.sql</FullPath>
         </FileNode>
-        <FileNode Name="07.DefineFunction.sql">
+        <FileNode Name="07.IngredientsFromBulgariaAndGreece.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07.DefineFunction.sql</FullPath>
+          <FullPath>07.IngredientsFromBulgariaAndGreece.sql</FullPath>
         </FileNode>
-        <FileNode Name="08.DeleteEmployeesAndDepartments.sql">
+        <FileNode Name="08.BestRatedProducts.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>08.DeleteEmployeesAndDepartments.sql</FullPath>
+          <FullPath>08.BestRatedProducts.sql</FullPath>
         </FileNode>
-        <FileNode Name="09.FindFullName.sql">
+        <FileNode Name="09.NegativeFeedback.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>09.FindFullName.sql</FullPath>
+          <FullPath>09.NegativeFeedback.sql</FullPath>
         </FileNode>
-        <FileNode Name="10.PeopleWithBalanceHigherThan.sql">
+        <FileNode Name="10.CustomersWithoutFeedback.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>10.PeopleWithBalanceHigherThan.sql</FullPath>
+          <FullPath>10.CustomersWithoutFeedback.sql</FullPath>
         </FileNode>
-        <FileNode Name="11.FutureValueFunction.sql">
+        <FileNode Name="11.HonorableMentions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>11.FutureValueFunction.sql</FullPath>
+          <FullPath>11.HonorableMentions.sql</FullPath>
         </FileNode>
-        <FileNode Name="12.CalculatingInterest.sql">
+        <FileNode Name="12.CustomersByCriteria.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>12.CalculatingInterest.sql</FullPath>
+          <FullPath>12.CustomersByCriteria.sql</FullPath>
         </FileNode>
-        <FileNode Name="13.CashInUserGamesOddRows.sql">
+        <FileNode Name="13.MiddleRangeDistributors.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>13.CashInUserGamesOddRows.sql</FullPath>
+          <FullPath>13.MiddleRangeDistributors.sql</FullPath>
         </FileNode>
-        <FileNode Name="14.CreateTableLogs.sql">
+        <FileNode Name="14.TheMostPositiveCountry.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>14.CreateTableLogs.sql</FullPath>
+          <FullPath>14.TheMostPositiveCountry.sql</FullPath>
         </FileNode>
-        <FileNode Name="15.CreateTableEmails.sql">
+        <FileNode Name="15.CountryRepresentative.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>15.CreateTableEmails.sql</FullPath>
+          <FullPath>15.CountryRepresentative.sql</FullPath>
         </FileNode>
-        <FileNode Name="16.DepositMoney.sql">
+        <FileNode Name="16.CustomersWithCountries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>16.DepositMoney.sql</FullPath>
+          <FullPath>16.CustomersWithCountries.sql</FullPath>
         </FileNode>
-        <FileNode Name="17.WithdrawMoneyProcedure.sql">
+        <FileNode Name="17.FeedbackByProductName.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>17.WithdrawMoneyProcedure.sql</FullPath>
+          <FullPath>17.FeedbackByProductName.sql</FullPath>
         </FileNode>
-        <FileNode Name="18.MoneyTransfer.sql">
+        <FileNode Name="18.SendFeedback.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>18.MoneyTransfer.sql</FullPath>
+          <FullPath>18.SendFeedback.sql</FullPath>
         </FileNode>
-        <FileNode Name="20.MassiveShopping.sql">
+        <FileNode Name="19.DeleteProducts.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>20.MassiveShopping.sql</FullPath>
+          <FullPath>19.DeleteProducts.sql</FullPath>
         </FileNode>
-        <FileNode Name="21.EmployeesWithThreeProjects.sql">
+        <FileNode Name="20.ProductByOneDistributor.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>21.EmployeesWithThreeProjects.sql</FullPath>
-        </FileNode>
-        <FileNode Name="22.DeleteEmployees.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-LFC551Q\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-LFC551Q\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>22.DeleteEmployees.sql</FullPath>
+          <FullPath>20.ProductByOneDistributor.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
